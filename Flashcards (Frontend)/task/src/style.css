@@ -1,0 +1,39 @@
+body {
+    background: url("world.png") no-repeat center fixed;
+    font-family: 'Rubik', sans-serif;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.Quiz_area {
+    height: 100vh;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.All_cards {
+    display: flex;                       /* establish flex container */
+    flex-flow: row wrap;                 /* enable flex items to wrap */
+    max-width: 350px;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.front {
+    flex: 0 0 100px;                       /* don't grow, don't shrink, width */
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: bisque;
+}
+
+.back {
+    flex: 0 0 100px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: darkseagreen;
+}
