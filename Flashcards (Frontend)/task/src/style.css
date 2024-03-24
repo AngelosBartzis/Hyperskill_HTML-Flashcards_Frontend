@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-.Quiz_area {
+.quiz_area {
     height: 100vh;
     align-items: center;
 }
@@ -15,7 +15,7 @@ h1 {
     text-align: center;
 }
 
-.All_cards {
+.all_cards {
     display: flex;                       /* establish flex container */
     flex-flow: row wrap;                 /* enable flex items to wrap */
     justify-content: space-around;
@@ -40,7 +40,7 @@ h1 {
 .front,
 .back {
     display: flex;
-    /*flex: 0 0 100px;*/                  /* don't grow, don't shrink, width */
+    /*flex: 0 0 100px;*/                /* don't grow, don't shrink, width */
     width: 100px;
     height: 100px;
     border-radius: 20px;
