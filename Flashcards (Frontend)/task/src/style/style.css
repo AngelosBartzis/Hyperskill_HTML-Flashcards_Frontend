@@ -1,5 +1,5 @@
 body {
-    background: url("world.png") no-repeat center fixed;
+    background: url("../media/world.png") no-repeat center fixed;
     font-family: 'Rubik', sans-serif;
     background-size: cover;
     padding: 0;
